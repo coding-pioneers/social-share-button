@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Social Share Button</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <style type="text/css">
+    /* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+@font-face {
+    font-family: 'League Gothic';
+    src: url('fonts/leaguegothic-regular-webfont.eot');
+    src: url('fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/leaguegothic-regular-webfont.woff') format('woff'), url('fonts/leaguegothic-regular-webfont.ttf') format('truetype'), url('fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lora'), local('Lora-Regular'), url('fonts/Lora-Regular.ttf') format('truetype');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: "Flaticon";
+    src: url("fonts/flaticon.woff") format("woff"), url("fonts/flaticon.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before {
+    font-family: Flaticon;
+}
+
+.flaticon-facebook:before {
+    content: "\e000";
+}
+.flaticon-github:before {
+    content: "\e001";
+}
+.flaticon-google:before {
+    content: "\e002";
+}
+.flaticon-linkedin:before {
+    content: "\e003";
+}
+.flaticon-twitter:before {
+    content: "\e004";
+}
+.flaticon-xing:before {
+    content: "\e005";
+}
+.flaticon-success:before {
+    content: "\e005";
+}
+a.flaticon:hover {
+    text-decoration: none;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+/* Buttons
+-------------------------------------------------- */
+
+
+.btn-default {
+    font-family: 'League Gothic', sans-serif;
+    background: none;
+    font-size: 24px;
+    color: #333;
+    border-color: #666;
+    transition: all 0.3s ease;
+}
+.btn-default:hover {background: #333; color: #fff;
+}
+.btn-default:focus {outline:0;
+}
+.btn-xing:hover { color: #338383; border-color: #338383; background: none; }
+.btn-xing { background: #338383; border-color: #338383; color: #fff; }
+.btn-google:hover { color: #db4a39; border-color: #db4a39; background: none; }
+.btn-google { background: #db4a39;  border-color: #db4a39; color: #fff; }
+.btn-twitter:hover { color: #00acee;  border-color: #00acee;  background: none; }
+.btn-twitter { background: #00acee;  border-color: #00acee; color: #fff; }
+.btn-facebook:hover { color: #3b5998;  border-color: #3b5998;  background: none; }
+.btn-facebook { background: #3b5998;  border-color: #3b5998; color: #fff; }
+.btn-mail:hover { color: #999; border-color: #999;  background: none; }
+.btn-mail { background: #999; border-color: #999; color: #fff; }
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+</style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="page-header">
+        <h1>Social Share Button</h1>
+      </div>
+      <p class="lead">
+      Button zum Teilen und Liken helfen Ihnen Ihre Reichweite zu vergrößern. So wird ihr der Inhalt im Internet mit Ihrem Context geteilt und bei einer größeren Anzahl von Menschen wahrgenommen, so kommen letztlich 50% mehr Besucher auf Ihre Seite.</p>
+      <p>Dieses Script hilft Ihnen, die Geschwindigkeit Ihrer Seite zu erhöhen, es ist keine Integration der Buttons von jedem Anbieter nötig.</p>
+      <div class="share" style="padding-top:15px">
+<span class="share_counter" style="display:none">Interaktionen - Vielen Dank!</span><br><br>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http://www.coding-pioneers.com/" title="Teile den Beitrag von Coding Pioneers mit Facebook" class="btn btn-default btn-facebook btn-share"><span class="flaticon-facebook"></span> <span class="text">like it</span></a>
+<a href="https://twitter.com/home?status=http://www.coding-pioneers.com/" title="Teile den Beitrag von Coding Pioneers mit Twitter" class="margin-left btn btn-default btn-twitter btn-share"><span class="flaticon-twitter"></span> &nbsp;<span class="text">tweet it</span></a>
+<a href="https://plus.google.com/share?url=http://www.coding-pioneers.com/" title="Teile den Beitrag von Coding Pioneers mit Google +" class="margin-left btn btn-default btn-google btn-share"><span class="flaticon-google"></span> &nbsp; <span class="text">give it +1</span></a>
+<a href="https://www.xing.com/spi/shares/new?url=http://www.coding-pioneers.com/" title="Teile den Beitrag von Coding Pioneers mit XING" class="margin-left btn btn-default btn-xing btn-share"><span class="flaticon-xing"></span>  <span class="text">share it</span></a>
+<a href="mailto:?&subject=Linkempfehlung&body=http://www.coding-pioneers.com/" title="Teile den Beitrag von Coding Pioneers per E-Mail" class="margin-left btn btn-default btn-mail"><span class="glyphicon glyphicon-envelope"></span> &nbsp;&nbsp;Weiterleiten</a></div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Social Share Button von <a href="http://www.coding-pioneers.com/">coding pioneers</a></p>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
