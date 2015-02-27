@@ -4,12 +4,12 @@ Button zum Teilen und Liken helfen Ihnen Ihre Reichweite zu vergrößern. So wir
 
 Dieses kleine Projekt hilft Ihnen, die Geschwindigkeit Ihrer Seite zu erhöhen, es ist keine Integration der Buttons von jedem Anbieter nötig.
 
-###### Demo
+## Demo
 
 Eine Demo des Systems könnt ihr unter folgender Seite finden:
 http://www.coding-pioneers.com/demo/github_ssb/
 
-###### Installation
+## Installation
 
 Einmal das Paket herunterladen. Im Ordner Demo findet ihr eine entsprechende Demo.
 
