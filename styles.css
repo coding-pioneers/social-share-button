@@ -1,0 +1,30 @@
+/*!
+ * Social Share Buttons 1.0
+ * Copyright 2015, Sebastian Apprecht (sebastian@coding-pioneers.com)
+ * Coding Pioneers
+ *
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+.btn-default {
+    font-family: 'League Gothic', sans-serif;
+    background: none;
+    font-size: 24px;
+    color: #333;
+    border-color: #666;
+    transition: all 0.3s ease;
+}
+.btn-default:hover {background: #333; color: #fff;
+}
+.btn-default:focus {outline:0;
+}
+.btn-xing:hover { color: #338383; border-color: #338383; background: none; }
+.btn-xing { background: #338383; border-color: #338383; color: #fff; }
+.btn-google:hover { color: #db4a39; border-color: #db4a39; background: none; }
+.btn-google { background: #db4a39;  border-color: #db4a39; color: #fff; }
+.btn-twitter:hover { color: #00acee;  border-color: #00acee;  background: none; }
+.btn-twitter { background: #00acee;  border-color: #00acee; color: #fff; }
+.btn-facebook:hover { color: #3b5998;  border-color: #3b5998;  background: none; }
+.btn-facebook { background: #3b5998;  border-color: #3b5998; color: #fff; }
+.btn-mail:hover { color: #999; border-color: #999;  background: none; }
+.btn-mail { background: #999; border-color: #999; color: #fff; }
