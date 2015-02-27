@@ -19,6 +19,8 @@ Der HTML-Code für die Buttons muss in euer entsprechendes CMS.
 
 `style.css` - Der essentielle CSS, Bitte ändern Sie diesen Code auf Ihre Bedürfnisse hin ab
 
+`script.js` - JavaScript für die erweiterte Funktion
+
 `json.tpl` - Formathilfe für die JSON-Datei
 `json_modx.tpl` - Ressurcenvorschlag für das MODX CMS, ggf. muss hier der Snippet-Name angepasst werden
 
